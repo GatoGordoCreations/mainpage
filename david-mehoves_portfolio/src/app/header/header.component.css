@@ -1,0 +1,18 @@
+.header_color {
+    background-color: rgba(0,0,0,.3);
+}
+.header_text {
+    color: var(--font-offset);
+    text-decoration: none;
+}
+.header_size {
+    min-height: 75px;
+}
+.header_container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.inline {
+    display: inline;
+}
