@@ -1,2 +1,16 @@
 /* GLOBAL STYLES */
-@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+    --color-primary: blue;  
+    --color-dark: #333333;
+    --color-background: #ffffff;
+    --font-light: grey;
+    --font-dark: darkslategray;
+    --font-offset: #ffffff;
+    
+}
+
+html, body, app-root {
+    height: 100%;
+}
