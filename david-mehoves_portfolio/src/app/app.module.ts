@@ -13,6 +13,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { ContactComponent } from './contact/contact.component';
 import { CvComponent } from './cv/cv.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { CvComponent } from './cv/cv.component';
     CertificationsComponent,
     ContactComponent,
     CvComponent,
+    CardComponent,
     
   ],
   imports: [
