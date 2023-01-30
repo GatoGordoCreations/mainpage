@@ -1,0 +1,37 @@
+.invisable {
+    display: none;
+}
+.visable {
+    display: block;
+}
+.button_wrapper {
+    
+}
+.button_style {
+    border: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px; 
+    background-color: lightgrey;
+    padding: 5px 40px 2px 40px;
+    margin-right: 1px;
+    filter:brightness(90%);
+}
+.selected {
+    background-color: lightgrey;
+    filter:brightness(100%);
+}
+.content_box {
+    background-color: lightgrey;
+    display:inline-flex;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.content_box_inner {
+    width: 600px;
+    min-height: 200px;
+    margin:8px;
+    padding:5px;
+    background-color: rgba(255,255,255,.9);
+    border: 5px inset lightgrey;
+}

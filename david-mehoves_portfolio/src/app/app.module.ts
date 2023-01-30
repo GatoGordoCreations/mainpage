@@ -7,13 +7,26 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { SkillsComponent } from './skills/skills.component';
+import { CertificationsComponent } from './certifications/certifications.component';
+import { ContactComponent } from './contact/contact.component';
+import { CvComponent } from './cv/cv.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent,
+    PortfolioComponent,
+    SkillsComponent,
+    CertificationsComponent,
+    ContactComponent,
+    CvComponent,
+    
   ],
   imports: [
     BrowserModule,

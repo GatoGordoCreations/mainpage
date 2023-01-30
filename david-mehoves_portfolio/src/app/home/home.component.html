@@ -1,1 +1,17 @@
-<p>home works!</p>
+<div class="container">
+    <div class="button_wrapper">
+        <button (click)="focusOnDiv('a')" class="button_style" [ngClass]="{selected: tab==='a'}">A</button>
+        <button (click)="focusOnDiv('b')" class="button_style" [ngClass]="{selected: tab==='b'}">B</button>
+        <button (click)="focusOnDiv('c')" class="button_style" [ngClass]="{selected: tab==='c'}">C</button>
+    </div>
+    
+    <div class="content_box">
+        <div class="content_box_inner">
+            <div id="diva" class="invisable"><h1>A</h1></div>
+            <div id="divb" class="invisable"><h1>B</h1></div>
+            <div id="divc" class="invisable"><h1>C</h1></div>
+        </div>
+        
+    </div>
+    
+</div>
